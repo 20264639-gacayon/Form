@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lastname – HTML Form Activity</title>
+</head>
+<body>
+    <h1>HTML Form</h1>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <p>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name">
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Gender</legend>
+            <p>
+                <input type="radio" name="gender" id="male" value="Male">
+                <label for="male">Male</label>
+                <br>
+                <input type="radio" name="gender" id="female" value="Female">
+                <label for="female">Female</label>
+                <br>
+                <input type="radio" name="gender" id="other" value="Other">
+                <label for="other">Other</label>
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Hobbies</legend>
+            <p>
+                <input type="checkbox" name="hobbies" id="Basketball" value="Basketball">
+                <label for="Basketball">Basketball</label>
+                <br>
+                <input type="checkbox" name="hobbies" id="Sing" value="Sing">
+                <label for="Sing">Sing</label>
+                <br>
+                <input type="checkbox" name="hobbies" id="Playing Online Games" value="Playing Online Games">
+                <label for="Playing Online Games">Playing Online Games</label>
+            </p>
+        </fieldset>
+
+        <p>
+            <label for="comments">Additional Comments:</label>
+            <br>
+            <textarea name="comments" id="comments" rows="5" cols="40"></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Submit">
+        </p>
+    </form>
+</body>
+</html>
